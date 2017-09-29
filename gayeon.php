@@ -12,6 +12,10 @@
     <h1> Gayeon Lee </h1>
 
     <div class="content">
+      <figure>
+          <img src="img/Gayeon.png" alt="Gayeon Lee">
+          <figcaption>Gayeon Lee</figcaption>
+        </figure>
       <h2> About Me </h2>
       <p> I am a senior computer science major at University of Rochester, Class of 2018, looking for a software development position after graduation. I am also the University of Rochester Women in Computing Web Manager.  </p>
       <h2> Experience</h2>

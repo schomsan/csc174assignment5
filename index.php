@@ -14,7 +14,11 @@
   <!-- <div class = "container">
     <section class="overview"> -->
       <h1>Overview</h1>
-      <section class="people">
+      <div class="people">
+        <figure>
+          <img src="img/group.png" alt="Group Photo">
+          <figcaption>Left to Right: Vivian Li, Gayeon Lee, Ben Chomsang.</figcaption>
+        </figure>
         <section class="excerpt">
           <h2>Vivian Li</h2>
           <p>Hi! I'm an aspiring UX designer and front-end developer studying at the University of Rochester. Right now, I'm working at the ROC Human Computer Interaction Lab on campus as a research assistant where I work on developing novel user experiences. If I'm not working on new designs or coding, you'll likely find me swing dancing or biking.</p>
@@ -30,9 +34,8 @@
           <p>I am a senior computer science major at University of Rochester, Class of 2018, looking for a software development position after graduation. I am also the University of Rochester Women in Computing Web Manager.  </p>
           <a href=gayeon.php>Read more about Gayeon</a>
         </section>
-      <!-- </section>
-    </section> -->
-  </div>
+      </div>
+
 
   <?php include "inc/footer.inc"; ?>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
