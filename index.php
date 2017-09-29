@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Group 8 - Assignment 4</title>
+  <link rel="stylesheet" href="css/materialize.css" type="text/css" media="all">
   <link rel="stylesheet" href="css/main-styles.css" type="text/css" media="all">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
   <?php include "inc/menu.inc"; ?>
 
-  <div class = "container">
-    <section class="overview">
+  <!-- <div class = "container">
+    <section class="overview"> -->
       <h1>Overview</h1>
       <section class="people">
         <section class="excerpt">
@@ -29,10 +30,12 @@
           <p>I am a senior computer science major at University of Rochester, Class of 2018, looking for a software development position after graduation. I am also the University of Rochester Women in Computing Web Manager.  </p>
           <a href=gayeon.php>Read more about Gayeon</a>
         </section>
-      </section>
-    </section>
+      <!-- </section>
+    </section> -->
   </div>
 
   <?php include "inc/footer.inc"; ?>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>

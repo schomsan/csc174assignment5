@@ -1,19 +1,26 @@
 body {
-	color:lightgray;
-	background-color: #601E9E;
+	color: white;
+	background-color: #F7F0DB;
 	font-family: 'Raleway', sans-serif;
 	padding:0;
 	margin: 0;
 }
-
 
 .menu ul {
 	list-style: none;
 	display:flex;
 	justify-content: space-between;
 	margin-left: -20px;
+}
 
+.menu li {
+	padding: 10px 10px;
+}
 
+.menu a {
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
 }
 
 .people-menu {
@@ -21,91 +28,70 @@ body {
 	padding-right: 10px;
 }
 
-.menu li {
-	padding: 10px 20px;
-
-}
-
-
-
-.menu a {
-		text-decoration: none;
-		color:darkgrey;
-
-}
-
-.menu a:hover {
-	color:white;
-}
-
-
-
-
 .overview, footer {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
-
 }
 
 h1 {
-	font-size: 80px;
-	margin: 10px;
+	font-size: 90px;
+	text-align: center;
+	margin: 40px;
 	text-transform: uppercase;
-}
-
-.people, .about-me, .fun-fact, .content, .contact {
-	width:60vw;
-	background-color: ghostwhite;
-	margin: 30px;
-	border-radius: 10px
-
 }
 
 h2 {
-	margin: 0;
-	color:blueviolet;
+	font-size: 48px;
+	color:#ee6e73;
 	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+.excerpt, .fun-fact, .content, .contact {
+	width:60vw;
+	background-color: ghostwhite;
+	margin: 30px;
+	-webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+					box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+	border-radius: 10px
 }
 
 .excerpt {
 	padding: 40px 40px ;
+	margin: 20px auto;
 	color:#323232;
-	
-
 }
 
-.excerpt:not(:last-child), .experience:not(:last-child) {
+.experience:not(:last-child) {
 	border-bottom:solid;
 	border-bottom-width: thin;
-	border-bottom-color: #601E9E;
+	border-bottom-color: #55C0BE;
+	margin-bottom: 20px;
 }
 
 a {
 	text-decoration: none;
-	color:blue;
+	color: #55C0BE;
 }
 
 a:hover {
-	color:blueviolet;
+	text-decoration: underline;
 }
 
 footer {
 	margin-bottom: 20px;
 }
-
-h1 {
-	font-size: 100px;
-	text-align: center;
-}
-
-h3 {
-	font-size: 24px;
-	text-transform: uppercase;
-}
-
 
 .about-me, .fun-fact, .content , .contact{
 	margin: 10px auto;
@@ -121,25 +107,15 @@ h3 {
 	margin-top: 35px;
 }
 
-.content {
-	background-color: #2E0050;
-	color:white;
-}
-
-
-
-@media (max-width: 700px) { 
+@media (max-width: 700px) {
 	h1 {
 		font-size: 60px;
 	}
 
-	
 	.menu ul {
-	
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	
 	}
 
 	.overview, footer {
@@ -150,7 +126,4 @@ h3 {
 	.people {
 		width: 90vw;
 	}
-
-
 }
-
