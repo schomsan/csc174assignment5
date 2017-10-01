@@ -10,13 +10,15 @@
 	<body>
 		<?php include "inc/menu.inc"; ?>
 		<h1>Vivian Li</h1>
-		<div class="content">
-		<figure>
-          <img src="img/vivian.png" alt="Vivian Lee">
-          <figcaption>Vivian Lee</figcaption>
-        </figure>	
-		<h2>About Me</h2>
+		<div class="about-me">
+			<figure>
+						<img src="img/vivian.png" alt="Vivian Lee">
+						<figcaption>Vivian Li</figcaption>
+					</figure>
+			<h2>About Me</h2>
 			<p>Hi! I'm an aspiring UX designer and front-end developer studying at the University of Rochester.  Right now, I'm working at the ROC Human Computer Interaction Lab on campus as a research assistant where I work on developing novel user experiences. If I'm not working on new designs or coding, you'll likely find me swing dancing or biking.</p>
+		</div><!--about-me-->
+		<div class="content">
 			<h2>Experience</h2>
 			<ul>
 				<li>Collaboration Coach</li>

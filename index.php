@@ -16,7 +16,7 @@
       <h1>Overview</h1>
       <div class="people">
         <figure>
-          <img src="img/group.png" alt="Group Photo">
+          <img src="img/group.png" alt="Group Photo" class="home-photo">
           <figcaption>Left to Right: Vivian Li, Gayeon Lee, Ben Chomsang.</figcaption>
         </figure>
         <section class="excerpt">
@@ -38,7 +38,5 @@
 
 
   <?php include "inc/footer.inc"; ?>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>

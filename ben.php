@@ -11,13 +11,15 @@
 <body>
   <?php include "inc/menu.inc"; ?>
   <h1>Ben Chomsang</h1>
-  <div class="content">
+  <div class = "about-me">
     <figure>
           <img src="img/ben.png" alt="Ben Chomsang">
           <figcaption>Ben Chomsang</figcaption>
         </figure>
     <h2>About Me</h2>
     <p> Hi! I'm Ben. I'm a student at the University of Rochester studying Film and Media and Psychology. I like trying new things, and traveling. I am a freelancer, feel free to contact me if you want to collaborate with me!</p>
+  </div> <!--about-me-->
+  <div class="content">
     <h2>Experience</h2>
     <ul>
       <li>Brand Development</li>
