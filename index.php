@@ -4,9 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Group 8 - Assignment 4</title>
-  <link rel="stylesheet" href="css/materialize.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/main-styles.css" type="text/css" media="all">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <?php include "inc/style_imports.inc"; ?>
 </head>
 <body>
   <?php include "inc/menu.inc"; ?>
@@ -19,8 +17,8 @@
           <img src="img/group.png" alt="Group Photo" class="home-photo">
           <figcaption>Left to Right: Vivian Li, Gayeon Lee, Ben Chomsang.</figcaption>
         </figure>
-      
-      
+
+
         <section class="excerpt">
           <h2>Vivian Li</h2>
           <p>Hi! I'm an aspiring UX designer and front-end developer studying at the University of Rochester. Right now, I'm working at the ROC Human Computer Interaction Lab on campus as a research assistant where I work on developing novel user experiences. If I'm not working on new designs or coding, you'll likely find me swing dancing or biking.</p>
@@ -36,10 +34,8 @@
           <p>Hi! I'm Ben. I'm a student at the University of Rochester studying Film and Media and Psychology. I like trying new things, and traveling. I am a freelancer, feel free to contact me if you want to collaborate with me!</p>
           <a href=ben.php>Read More</a>
         </section>
-      
+
       </div>
-
-
   <?php include "inc/footer.inc"; ?>
 </body>
 </html>

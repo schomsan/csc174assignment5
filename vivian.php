@@ -3,9 +3,7 @@
 	<head>
 		<meta charset=utf-8>
 		<title>Vivian Li | Software Developer</title>
-		<link rel="stylesheet" href="css/materialize.css" type="text/css" media="all">
-		<link rel="stylesheet" href="css/main-styles.css" type="text/css" media="all">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<?php include "inc/style_imports.inc"; ?>
 	</head>
 	<body>
 		<?php include "inc/menu.inc"; ?>

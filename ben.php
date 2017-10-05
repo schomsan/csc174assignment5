@@ -4,9 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ben Chomsang</title>
-  <link rel="stylesheet" href="css/materialize.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/main-styles.css" type="text/css" media="all">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <?php include "inc/style_imports.inc"; ?>
 </head>
 <body>
   <?php include "inc/menu.inc"; ?>
