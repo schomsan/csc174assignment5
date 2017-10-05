@@ -10,7 +10,7 @@
     <h1> Gayeon Lee </h1>
     <div class = "about-me">
       <figure>
-          <img src="img/Gayeon.png" alt="Gayeon Lee">
+          <img src="img/gayeon.png" alt="Gayeon Lee">
           <figcaption>Gayeon Lee</figcaption>
         </figure>
       <h2> About Me </h2>
