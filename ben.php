@@ -47,7 +47,11 @@
   <h2>Connect with me!</h2>
   <p>Email: schomsan@u.rochester.edu</p>
 </div>
-
   <?php include "inc/footer.inc"; ?>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(".button-collapse").sideNav();
+  </script>
 </body>
 </html>

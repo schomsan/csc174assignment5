@@ -53,5 +53,10 @@
     <a href="https://www.linkedin.com/in/gayeonlee94"> LinkedIn </a>
   </div>
     <?php include "inc/footer.inc"; ?>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
+    <script>
+      $(".button-collapse").sideNav();
+    </script>
 </html>
