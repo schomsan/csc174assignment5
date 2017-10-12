@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Group 8 - Assignment 4</title>
+  <title>Group 8 - Assignment 5</title>
   <?php include "inc/style_imports.inc"; ?></head>
 <body>
   <?php include "inc/menu.inc"; ?>
